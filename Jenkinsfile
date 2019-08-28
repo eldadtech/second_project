@@ -10,7 +10,7 @@ pipeline{
 		{
 			steps{
 				
-				bat 'C:\code\DockerRedisPython\docker-compose up -d'
+				bat 'C:\\code\\DockerRedisPython\\docker-compose up -d'
 			}
 			
 		}
