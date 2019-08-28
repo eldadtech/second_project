@@ -9,8 +9,10 @@ pipeline{
 		stage ('dockercompose')
 		{
 			steps{
-				bat 'cd "C:\\code\\DockerRedisPython"'
-				bat 'docker-compose up -d'
+			    bat """
+					 cd 'C:\\code\\DockerRedisPython'
+					 docker-compose up -d
+				"""
 			}
 			
 		}
